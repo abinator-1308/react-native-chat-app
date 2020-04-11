@@ -5,7 +5,7 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 // Create the navigator
 const navigator = createStackNavigator({
-  Texter: { screen: Main },
+  Konnectify: { screen: Main },
   Chat: { screen: Chat },
 });
 

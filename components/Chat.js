@@ -6,7 +6,7 @@ import Fire from '../Fire'
 class Chat extends React.Component {
   
   static navigationOptions = ({ navigation }) => ({
-    title: (navigation.state.params || {}).name || 'Chat!',
+    title: (navigation.state.params || {}).name || 'Konnectify!',
   });
   
   state = {
